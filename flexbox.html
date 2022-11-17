@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="item1" style="">1 Lor u</div>
+      <div id="item2" style="">2 Labolu ptates.</div>
+      <div id="item3" style="">3 Cum e.</div>
+      <div id="item4" style="">4 aut iure.</div>
+      <div id="item5" style="">5 lle fugit.</div>
+      <div id="item6" style="">6 sua orem!</div>
+      <div id="item7" style="">7 Magn iatis</div>
+    </div>
+
+    <style>
+      #container {
+        display: flex;
+
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        /* flex-flow: row wrap; (wraps a pipe to the next line)*/
+
+        /* ---- doesn't use pipe at all */
+        /* justify-content: center; */
+        /* align-content: center; (works when => flex-wrap is used)*/
+
+        /* ---- uses pipe */
+        /* align-items: center; (works like a magnet... moves only inside the pipe)*/
+      }
+    </style>
+  </body>
+</html>
